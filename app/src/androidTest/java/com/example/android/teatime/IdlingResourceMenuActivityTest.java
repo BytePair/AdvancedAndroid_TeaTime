@@ -83,7 +83,7 @@ public class IdlingResourceMenuActivityTest {
         //Espresso.registerIdlingResources(mIdlingResource);
     }
 
-    // TODO (7) Test that the gridView with Tea objects appears and we can click a gridView item
+    // COMPLETE (7) Test that the gridView with Tea objects appears and we can click a gridView item
     @Test
     public void idlingResourceTest() {
         onData(anything()).inAdapterView(withId(R.id.tea_grid_view)).atPosition(0).perform(click());
