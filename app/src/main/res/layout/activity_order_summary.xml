@@ -221,10 +221,10 @@
             android:id="@+id/send_email_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="sendEmail"
-            android:text="@string/send_email"
             android:layout_below="@+id/summary_email_prompt"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:onClick="sendEmail"
+            android:text="@string/send_email" />
 
     </RelativeLayout>
 </LinearLayout>
