@@ -71,8 +71,7 @@ class ImageDownloader {
 
         // Display a toast to let the user know the images are downloading
         String text = context.getString(R.string.loading_msg);
-        int duration = Toast.LENGTH_LONG;
-        Toast toast = Toast.makeText(context, text, duration);
+        Toast toast = Toast.makeText(context, text, Toast.LENGTH_LONG);
         toast.show();
 
         // Fill ArrayList with Tea objects
